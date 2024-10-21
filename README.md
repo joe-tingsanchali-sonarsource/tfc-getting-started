@@ -19,7 +19,7 @@ This repo contains two main things:
 
 ## Usage
 
-### 1. Log in to Terraform Cloud via the CLI
+### 1. Log in to Terraform Cloud via the CLI 
 
 Run `terraform login` and follow the prompts to get an API token for Terraform to use. If you don't have a Terraform Cloud account, you can create one during this step.
 
