@@ -22,3 +22,6 @@ jobs:
           args: >
             -Dsonar.verbose=true
             -Dsonar.scanner.skipJreProvisioning=true
+            -Dsonar.scanner.internal.dumpToFile=out.properties
+      - name: Show scanner properties
+        run: cat out.properties
